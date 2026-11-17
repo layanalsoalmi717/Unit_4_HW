@@ -31,7 +31,7 @@ jobs:
     - name: Lint
       run: |
         ruff check .
-        ruff format --check .
+        ruff format --check .        
         mypy .
     - name: Test with pytest
       run: |
